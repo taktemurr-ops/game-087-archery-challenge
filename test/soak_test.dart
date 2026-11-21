@@ -1,11 +1,11 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_087_archery_challenge/core/clock.dart';
-import 'package:game_087_archery_challenge/core/game_rules.dart';
-import 'package:game_087_archery_challenge/core/game_session.dart';
-import 'package:game_087_archery_challenge/core/level_plan.dart';
-import 'package:game_087_archery_challenge/core/rng.dart';
-import 'package:game_087_archery_challenge/core/save_store.dart';
-import 'package:game_087_archery_challenge/core/telemetry.dart';
+import 'package:studio_core/core/clock.dart';
+import 'package:studio_core/core/game_rules.dart';
+import 'package:studio_core/core/game_session.dart';
+import 'package:studio_core/core/level_plan.dart';
+import 'package:studio_core/core/rng.dart';
+import 'package:studio_core/core/save_store.dart';
+import 'package:studio_core/core/telemetry.dart';
 import 'package:game_087_archery_challenge/game/rules.dart';
 
 /// 24-month operation simulation (doc 6, 10, 12): a virtual player opens
